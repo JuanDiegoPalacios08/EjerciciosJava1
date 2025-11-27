@@ -1,18 +1,50 @@
-## Getting Started
+# ☕ Ejercicios Prácticos de Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<div align="center">
 
-## Folder Structure
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Dev Senior](https://img.shields.io/badge/Dev_Senior-Cohorte_5-blue?style=for-the-badge)
 
-The workspace contains two folders by default, where:
+</div>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📚 Descripción
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Repositorio de ejercicios prácticos de Java desarrollados durante el curso **Dev Senior - Cohorte 5**.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este espacio contiene implementaciones de conceptos fundamentales y avanzados de Java, organizados por clases y temáticas.
 
-## Dependency Management
+## 🗂️ Estructura del Proyecto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+Clase1/
+├── src/          # Código fuente
+├── bin/          # Archivos compilados
+├── lib/          # Librerías
+└── README.md     # Este archivo
+```
+
+## 🚀 Cómo Ejecutar
+
+1. Asegúrate de tener Java instalado en tu sistema
+2. Compila el código:
+   ```bash
+   javac -d bin src/*.java
+   ```
+3. Ejecuta la aplicación:
+   ```bash
+   java -cp bin App
+   ```
+
+## 👨‍💻 Autor
+
+Estudiante de **Dev Senior - Cohorte 5**
+
+## 📝 Notas
+
+Este repositorio se actualiza continuamente con nuevos ejercicios y conceptos aprendidos durante el curso.
+
+---
+
+<div align="center">
+  <sub>Desarrollado con ☕ y 💻</sub>
+</div>
