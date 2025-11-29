@@ -48,6 +48,7 @@ public class App {
         System.out.println("Hora de medición");
         horaMedicion = entrada.next();
 
+        entrada.close();
         //CALCULOS CON OPERADORES ARITMETICOS
         promedioTemperatura = (temperaturaMaximaDiaAnterior + temperaturaMinimaDiaAnterior) /2.0;
 
@@ -107,7 +108,7 @@ public class App {
         System.out.println("Temperatura Agradable: "+temperaturaAgradable);
 
         System.out.println("\n  Calculos Adicionales:");
-        System.out.println("Promedio viento temperatura: "+promedioTemperatura);
+        System.out.println("Promedio viento temperatura: "+promedioVientoTemperatura);
 
         System.out.println("\n  =====================================================");
         System.out.println("                  REPORTE TERMINADO                      ");
