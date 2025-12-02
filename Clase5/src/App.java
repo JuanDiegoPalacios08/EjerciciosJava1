@@ -9,8 +9,11 @@ public class App {
         // ExpresionSwitch();
         // ExpresionSwitch_Yield();
         // CicloWhile();
-        //CicloDoWhile();
-        CicloFor();
+        // CicloDoWhile();
+        // CicloFor();
+        // CicloForBreak();
+        // CicloForContinue();
+        Ternario();
     }
 
     public static void EjemploIf() {
@@ -171,4 +174,46 @@ public class App {
 
     }
 
+    public static void CicloForBreak() {
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                System.out.println("Encontrado el número 5. Saliendo del bucle.");
+                break; // Sale del bucle for
+            }
+            System.out.println("Procesando: " + i);
+        }
+        System.out.println("Después del bucle.");
+        // Salida:
+        // Procesando: 1
+        // Procesando: 2
+        // Procesando: 3
+        // Procesando: 4
+        // Encontrado el número 5. Saliendo del bucle.
+        // Después del bucle.
+
+    }
+
+    public static void CicloForContinue() {
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 != 0) { // Si i es impar...
+                System.out.println("Saltando número impar: " + i);
+                continue; // Salta el resto del código en esta iteración (el println de abajo)
+            }
+            // Este código solo se ejecuta si i es par
+            System.out.println("Procesando número par: " + i);
+        }
+        // Salida:
+        // Saltando número impar: 1
+        // Procesando número par: 2
+        // Saltando número impar: 3
+        // Procesando número par: 4
+        // ... y así sucesivamente.
+
+    }
+
+    public static void Ternario (){
+        int numero = 7;
+        String resultado = (numero % 2 == 0) ? "Par" : "Impar" ;
+        System.out.println("El numero " +numero+ " es " +resultado);
+    }
 }
